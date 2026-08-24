@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+*.tar
+*.tar.gz
+*.zip
+*.log
+.git/
+.gitignore
+output/*
+!output/.gitkeep
+*.tar.gz
+*.zip
+.DS_Store

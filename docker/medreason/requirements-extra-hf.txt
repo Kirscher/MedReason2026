@@ -1,0 +1,7 @@
+# Optional dependencies for medreason_docker/systems/hf_vlm_system.py.
+# Uncomment or copy into requirements.txt when building a real HuggingFace VLM baseline.
+# torch>=2.1.0
+# transformers>=4.45.0
+# accelerate>=0.30.0
+# safetensors>=0.4.0
+# qwen-vl-utils>=0.0.8

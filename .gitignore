@@ -1,0 +1,54 @@
+# Python/local runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+venv/
+.venv/
+
+# Generated baseline outputs
+outputs/
+artifacts/
+local_inputs/
+local_outputs/
+
+# Local external references cloned for development
+external/
+
+# Challenge data lives outside the repo, but keep this defensive.
+data/
+docker/medreason/models/
+docker/medreason/retrieval/
+docker/medreason/lora/
+*.safetensors
+*.pt
+*.pth
+
+# Paper/submission-writeup materials are kept out of this repo.
+paper/
+paper_old/
+MICCAI_MedReason_26/
+MedReason26_Model_Description_Documents.*
+
+# Private review/poster exports and challenge-derived material.
+poster_materials/
+poster_holdout25_raw/
+Niklas_*.zip
+scripts/export_poster_holdout25.py
+
+# Local archives and environment files.
+*.zip
+*.tar
+*.tar.gz
+.env
+.env.*
+!.env.example
+
+# Secrets
+.synapseConfig
+*.pem
+*.key
+*.token

@@ -1,0 +1,10 @@
+# Optional AWQ/Marlin stack for local Qwen2.5-VL-32B-AWQ experiments.
+# Keep this separate from requirements-vlm.txt so 3B/7B Docker builds do not
+# install CUDA compiler packages or Marlin dependencies unnecessarily.
+gptqmodel>=7.0.0
+ninja
+nvidia-cuda-nvcc==13.0.88
+nvidia-cuda-cccl==13.0.85
+nvidia-cuda-crt==13.0.88
+nvidia-nvvm==13.0.88
+nvidia-cuda-runtime==13.0.96
