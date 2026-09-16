@@ -2,7 +2,8 @@
 
 [![Tests](https://github.com/Kirscher/MedReason2026/actions/workflows/tests.yml/badge.svg)](https://github.com/Kirscher/MedReason2026/actions/workflows/tests.yml)
 
-Official implementation of our [MedReason 2026 paper](https://openreview.net/forum?id=0vvODUp46Q).
+Official implementation of our [MedReason 2026 paper](https://openreview.net/forum?id=0vvODUp46Q)
+([arXiv preprint](https://arxiv.org/abs/2609.15530)).
 The offline pipeline uses Qwen2.5-VL-3B-Instruct, task-specific LoRA adapters,
 and an option-aware TF-IDF retrieval prior for medical visual question
 answering.
