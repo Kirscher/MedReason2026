@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: MedReason2026
+authors:
+  - family-names: Kirscher
+    given-names: Tristan
+    affiliation: "ICube, Institut Strauss"
+  - family-names: Koser
+    given-names: "Niklas C."
+    affiliation: "CAU"
+  - family-names: Pirk
+    given-names: Soren
+    affiliation: "CAU"
+date-released: "2026-09-16"
+url: "https://github.com/Kirscher/MedReason2026"
+preferred-citation:
+  type: article
+  title: "Option-Aware Retrieval and Task-Specific VLM Adaptation for Medical VQA"
+  authors:
+    - family-names: Kirscher
+      given-names: Tristan
+      affiliation: "ICube, Institut Strauss"
+    - family-names: Koser
+      given-names: "Niklas C."
+      affiliation: "CAU"
+    - family-names: Pirk
+      given-names: Soren
+      affiliation: "CAU"
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.15530"
+  url: "https://arxiv.org/abs/2609.15530"
+  doi: "10.48550/arXiv.2609.15530"

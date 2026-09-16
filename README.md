@@ -72,6 +72,22 @@ See [`docker/medreason/README.md`](docker/medreason/README.md) for the container
 contract and [`finetune/README.md`](finetune/README.md) for the camera-ready
 training configuration.
 
+## Citation
+
+If you use this work, please cite the preprint:
+
+```bibtex
+@misc{kirscher2026optionawareretrievaltaskspecificvlm,
+      title={Option-Aware Retrieval and Task-Specific VLM Adaptation for Medical VQA},
+      author={Tristan Kirscher and Niklas C. Koser and Soren Pirk},
+      year={2026},
+      eprint={2609.15530},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2609.15530},
+}
+```
+
 ## License
 
 The repository code is released under the [Apache License 2.0](LICENSE).
